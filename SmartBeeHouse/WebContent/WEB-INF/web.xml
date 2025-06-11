@@ -1,0 +1,11 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1">
+    <servlet>
+        <servlet-name>FermierServlet</servlet-name>
+        <servlet-class>servlet.FermierServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FermierServlet</servlet-name>
+        <url-pattern>/fermiers</url-pattern>
+    </servlet-mapping>
+</web-app>
